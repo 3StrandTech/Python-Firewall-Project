@@ -77,8 +77,8 @@ This exercise has helped me understand the mechanical aspects of how a firewall 
 
 <h2> Tools Used </h2>
 
-Visual Studio Code (Microsoft)
+<br> Visual Studio Code (Microsoft) </br>
 Oracle Virtualbox 
-Ubuntu Linux LTS 24.01.1 
+<br> Ubuntu Linux LTS 24.01.1 </br> 
 
 
