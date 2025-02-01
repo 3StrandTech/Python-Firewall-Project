@@ -57,6 +57,8 @@ Lastly, the random_number variable calls on the "random" module to generate a nu
 
 The last part of the for loop is to print the result of the check that the firewall does on the generated IP addresses, which one can see in the console output below. 
 
+![Print](https://github.com/user-attachments/assets/d12cd92b-d5d7-46bf-8cfa-8a527cbbad17)
+
 At the very bottom of the program the "main guard" is used to make sure that the program runs properly and that the result is actually printed to the console as without it, the console won't print the output as intended. I deleted the "main guard" out of the code and tried to run the code a couple times and the output didn't print to the console. 
 
 
