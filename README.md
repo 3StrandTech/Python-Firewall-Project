@@ -61,5 +61,24 @@ The last part of the for loop is to print the result of the check that the firew
 
 At the very bottom of the program the "main guard" is used to make sure that the program runs properly and that the result is actually printed to the console as without it, the console won't print the output as intended. I deleted the "main guard" out of the code and tried to run the code a couple times and the output didn't print to the console. 
 
+![MainGuard](https://github.com/user-attachments/assets/50657284-45b8-4580-b5bd-58363cbe004d)
+
+<h2> Output of the Code </h2> 
+
+As you can see, the code was run multiple times and the desired output was correct. If the IP address matched an IP address on the blacklist, then the message that printed was an "deny," meaning that the IP address was not allowed access. If the IP address was not on the list, then the message that printed was "allow," allowing access.
+
+![CodeOutput](https://github.com/user-attachments/assets/74b95740-046e-4b79-a7a2-ab43db2e9bda)
+
+<h2> Lessons Learned </h2>
+
+This exercise was very useful. In my mind I considered the logic of each part of the code. Included in my considerations were how the script worked, how each loop and function integrated their respective roles into the final result and as demonstrated with the "main guard" comment above, I also checked to see how deleting or not including certain components would affect the script, for good or for ill. 
+
+This exercise has helped me understand the mechanical aspects of how a firewall performs its functions in an effort to protect a network from unauthorized access. In addition, it has helped me understand the Python programming language a little more as well. Thank you for reviewing this exercise with me. 
+
+<h2> Tools Used </h2>
+
+Visual Studio Code (Microsoft)
+Oracle Virtualbox 
+Ubuntu Linux LTS 24.01.1 
 
 
