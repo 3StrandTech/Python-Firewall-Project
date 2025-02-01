@@ -28,7 +28,7 @@ The "main" function consists of two main parts:
 
 "rule_of_firewall" which is a dictionary with key value pairs, numerical IP addresses and a text string denoting in this case that these specific IP addresses will be denied access to the network if they try to obtain access. 
 
-
+![RuleOfFirewall](https://github.com/user-attachments/assets/035229cb-4f8c-41f4-8111-b4bd8bc366a8)
 
 The second part of the main function is a for loop. It has the range set to run 23 times in an effort to "pretend" to create network traffic on a fictitious network.  There will be three different variables as part of this for loop, they are: 
 
@@ -48,6 +48,6 @@ Lastly, the random_number variable calls on the "random" module to generate a nu
 The last part of the for loop is to print the result of the check that the firewall does on the generated IP addresses, which one can see in the console output below. 
 
 At the very bottom of the program the "main guard" is used to make sure that the program runs properly and that the result is actually printed to the console as without it, the console won't print the output as intended. I deleted the "main guard" out of the code and tried to run the code a couple times and the output didn't print to the console. 
-![image](https://github.com/user-attachments/assets/2220dbd6-7ae4-4ec9-8d81-8b585ebe2ae8)
+
 
 
