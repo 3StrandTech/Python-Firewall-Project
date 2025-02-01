@@ -30,18 +30,28 @@ The "main" function consists of two main parts:
 
 ![RuleOfFirewall](https://github.com/user-attachments/assets/035229cb-4f8c-41f4-8111-b4bd8bc366a8)
 
-The second part of the main function is a for loop. It has the range set to run 23 times in an effort to "pretend" to create network traffic on a fictitious network.  There will be three different variables as part of this for loop, they are: 
+The second part of the main function is a for loop. It has the range set to run 23 times in an effort to "pretend" to create network traffic on a fictitious network.  
+
+![ForLoop](https://github.com/user-attachments/assets/a2f9b9c4-8b3d-49ba-8bf3-52d4642af8f2)
+
+There will be three different variables as part of this for loop, they are: 
 
 address_ipv4
+
+![Address_IPv4](https://github.com/user-attachments/assets/2df67cf2-5d8e-4cde-b239-b15988a78c25)
 
 The address_ipv4 will be the result of whatever IP address that the ip_gen_random function generates.
 
 
 decision
 
- The decision variable is the result of the "rule_of_firewall" and "address_ipv4" arguments. "address_ipv4" is going to be the random IP address that is generated and the "rule_of_firewall" causes the "firewall" to check our dictionary. If the randomly generated IP address matches an IP address in the dictionary,  then the result of the "firewall_check" will be to "deny" the IP Address entry to the network. If the randomly generated IP does not match a key-value pair in the dictionary, then the returned result will be "allow." 
+![Decision](https://github.com/user-attachments/assets/5c248b1f-b6b4-4554-9aa5-56b3f77475da)
+
+The decision variable is the result of the "rule_of_firewall" and "address_ipv4" arguments. "address_ipv4" is going to be the random IP address that is generated and the "rule_of_firewall" causes the "firewall" to check our dictionary. If the randomly generated IP address matches an IP address in the dictionary,  then the result of the "firewall_check" will be to "deny" the IP Address entry to the network. If the randomly generated IP does not match a key-value pair in the dictionary, then the returned result will be "allow." 
 
 random_number 
+
+![Radint](https://github.com/user-attachments/assets/2eaf6c13-993c-432c-a7ad-87972e43081c)
 
 Lastly, the random_number variable calls on the "random" module to generate a number between 0 and 864. This serves to be a unique ID number and/or "label" for the particular attempt that an IP address is trying to access the network.
 
